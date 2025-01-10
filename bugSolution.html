@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+<style>
+  /* Solution 1: Using CSS */
+  #myDiv { display: none; }
+</style>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be hidden.
+  </div>
+
+  <script>
+    // Solution 2: Using JavaScript and standard CSS properties
+    // document.getElementById("myDiv").style.display = "none";
+    // document.getElementById("myDiv").style.visibility = "hidden"; // Alternative
+  </script>
+</body>
+</html>
